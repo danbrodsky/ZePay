@@ -11,8 +11,8 @@ if len(sys.argv) < 4:
 	print("Call format: python3 purchase.py $RECIPIENT $PAYMENT $NOTE")
 	sys.exit(1)
 
-emailStr = 'ZePay@protonmail.com'
-passwordStr = 'ZePayTest123'
+emailStr = ''
+passwordStr = ''
 
 chromedriver = "./chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
